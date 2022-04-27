@@ -1,0 +1,190 @@
+
+.background{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+
+.section-one{
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    color: rgb(230, 226, 226);
+    background-color: rgba(26, 26, 26, 0.89);
+}
+
+.section-one h1{
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+}
+
+.section-one p{
+    font-size: 16px;
+}
+
+.section-one a{
+    background-color: #353535e3;
+    color: rgb(230, 226, 226);
+    padding: 15px 30px;
+    border: solid 1px;
+    border-color: rgb(134, 134, 134); 
+}
+
+.section-two{
+    height: 204px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    margin-top: 1px;
+}
+.section-two h2{
+    padding-top: 30px;
+    color: rgba(31, 31, 31, 0.89);
+}
+  
+.Paragraph-one{
+    float: left;
+    padding-left: 260px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgba(37, 37, 37, 0.965);
+    
+}
+
+.Paragraph-two{
+    font-size: 16px;
+    padding-right: 140px;
+    padding-top: 0.2px;
+    line-height: 1.4;
+    color: rgba(37, 37, 37, 0.965);
+}
+
+
+.section-three{
+    height: 420px;
+    margin-top: 43px;
+    color: black;
+    background-color: rgba(26, 26, 26, 0.89) ;
+}
+.features{
+    list-style: none;  
+    display: flex;
+    margin-left: 160px;
+}
+
+.feature-list-1{
+    background-color: #ffff;
+    width: 270px;
+    height: 300px;
+    margin-top: 65px;
+    margin-left: 25px;
+}
+
+.feature-list-2{
+    background-color: #ffff;
+    width: 270px;
+    height: 300px;
+    margin-top: 65px;
+    margin-left: 25px;
+    
+}
+.feature-list-3{
+    background-color: #ffff;
+    width: 270px;
+    height: 300px;
+    margin-top: 65px;
+    margin-left: 25px;
+}
+
+.feature-list-1 h3{
+    color: rgba(31, 31, 31, 0.89);
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.feature-list-2 h3{
+    color: rgba(31, 31, 31, 0.89);
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.feature-list-3 h3{
+    color: rgba(31, 31, 31, 0.89);
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.section-four{
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.section-four h2{
+    color: rgba(31, 31, 31, 0.89);
+    padding-top: 20px;
+    text-align: center;
+}
+.section-four p{
+    color: rgb(80, 80, 80);
+    padding-bottom: 40px;
+}
+
+.section-five{
+    display: flex;
+    
+}
+.contact{
+    background-color: rgb(54, 133, 170);
+}
+.about{
+    background-color: rgb(63, 63, 63);
+}
+.contact h3{
+    color: rgb(255, 255, 255);
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.about h3{
+    color: rgb(255, 255, 255);
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.about p{
+    color: rgb(255, 255, 255);
+}
+.contact p{
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+
+.section-six{
+    display: flex;
+    background-color: black;
+    height: 70px;
+}
+
+ .web{
+    width: 1000px;
+    height: 60px;
+    margin-right: 450px;
+    margin-left: 120px; 
+    margin-top: 20px;
+ }
+.project{
+    width: 1000px;
+    height: 60px;
+    margin-right: 90px;
+    margin-left: 40px;
+   margin-top: 20px;
+}
+.readMore{
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    padding: 1px 20px 0px;
+    text-align: right;
+    margin: 4px 2px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    border-color: rgb(143, 141, 141);
+    box-shadow: 5px 8px 15px 0px rgb(0 0 0 / 29%);
+    padding-top: 2px;
+}
