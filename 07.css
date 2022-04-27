@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(115deg,
+            rgba(81, 81, 90, 0.8),
+            rgba(39, 39, 43, 0.418)),
+        url(./image/photo_2022-04-27_16-52-41.jpg);
+    
+    background-size: cover;
+    background-repeat: unset;
+    background-position: center;
+    
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 30px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+    font-size: medium;
+    border-color: white;
+    
+}
+
+.option {
+    text-align: left;
+}
+
+.option {
+    line-height: 30px;
+}
+
+button {
+    background-color: rgb(14, 176, 53);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size:large;
+    opacity:initial;
+}
+
+.cancelbtn,.submitbtn {
+    float: left;
+    width: 50%;
+}
+
+.container {
+    padding: 45px;
+    line-height: 20px;
+    background-color: #1b1b32;
+    max-width:720px;
+    min-width: 576px;
+    border-radius: 5px;
+    width: 100%;
+    margin: auto auto auto auto;
+    opacity: 87%;
+    z-index: 20;
+    font-size: larger;
+}
+
+.form-control {
+    width: 100%;
+    height: 2.rem;
+    color: #495057;
+    border-radius: 0.3rem;
+    background-color: white;
+
+}
+
+.header {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+.text-center{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+}
