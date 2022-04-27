@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signing Up Page</title>
+    <link rel="stylesheet" href="07.css">
+</head>
+
+<body>
+    <div >
+        <header class="header">
+          <h1 class="text-center">freeCodeCamp Survey Form</h1>
+          <p class="description text-center">
+            Thank you for taking the time to help us improve the platform
+          </p>
+        </header>
+        <div class="container">
+            <label style="color:white;" for="name">Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name" name="name" required>
+
+            <label style="color:white;" for="email">Email</label>
+            <input type="email" class="form-control" placeholder="Enter your Email" name="email" required>
+
+            <label style="color:white;" for="age">Age(optional)</label>
+            <input type="text" class="form-control" placeholder="Age" name="age" required>
+
+            <div class="currentrole">
+                <label style="color:white;" for="current-role">Which option best describes your current role ?</label>
+                <select name="current-role" class="form-control">
+                    <option id="selectcurrentrole">Select current role</option>
+                    <option value="1">value1</option>
+                    <option value="2">value2</option>
+                    <option value="3">value3</option>
+                    <option value="4">value4</option>
+                </select>
+            </div>
+            <div class="option">
+
+                <label style="color:white;" for="recommend">Would you recommend freeCodeCamp to a friend ?</label>
+                <br />
+                <input type="radio" id="definitaly" name="recommend" required>
+                <label style="color:white;" for="definitaly">Definitely</label>
+                <br />
+                <input id="Maby" type="radio" name="recommend" required>
+                <label style="color:white;" for="maybe">Maybe</label>
+                <br />
+                <input type="radio" id="notsure" name="recommend" required>
+                <label style="color:white;" for="notsure">Not sure</label>
+                <br />
+                <br />
+                <div class="favorite">
+                    <label style="color:white;" for="currentrole">What is your favorite of freeCodeCamp ?</label>
+                    <select name="favorite" class="form-control">
+                        <option id="favoritefree">Select an option</option>
+                        <option value="1">value1</option>
+                        <option value="2">value2</option>
+                        <option value="3">value3</option>
+                        <option value="4">value4</option>
+                    </select>
+                </div>
+
+                <label style="color:white;" for="improved">What would you like to see improved ? (Check all that apply)</label>
+                <br />
+                <input type="checkbox" id="front" name="improved" required>
+                <label style="color:white;" for="front">Front-end Projects</label>
+                <br />
+                <input id="back" type="checkbox" name="improved" required>
+                <label style="color:white;" for="back">Back-end Projects</label>
+                <br />
+                <input type="checkbox" id="data" name="improved" required>
+                <label style="color:white;" for="data">Data Visualization</label>
+                <br />
+                <input type="checkbox" id="challeng" name="improved" required>
+                <label style="color:white;" for="challeng">Challenges</label>
+                <br />
+                <input type="checkbox" id="open" name="improved" required>
+                <label style="color:white;" for="open">Open Source Community</label>
+                <br />
+                <input type="checkbox" id="gitter" name="improved" required>
+                <label style="color:white;" for="gitter">Getter help rooms</label>
+                <br />
+                <input type="checkbox" id="video" name="improved" required>
+                <label style="color:white;" for="video">Videos</label>
+                <br />
+                <input type="checkbox" id="city" name="improved" required>
+                <label style="color:white;" for="city">City Meetups</label>
+                <br />
+                <input type="checkbox" id="wiki" name="improved" required>
+                <label style="color:white;" for="wiki">Wiki</label>
+                <br />
+                <input type="checkbox" id="forum" name="improved" required>
+                <label style="color:white;" for="forum">Forum</label>
+                <br />
+                <input type="checkbox" id="additional" name="improved" required>
+                <label style="color:white;" for="additional">Additional courses</label>
+            </div>
+            <div class="suject">
+                <br />
+                <br />
+                <label style="color:white;" for="subject">Any comments or suggestions ?</label>
+                <br />
+                <textarea  placeholder="Enter your comments here..."
+                    style="height:200px"></textarea>
+            </div>
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">submit</button>
+            </div>
+        </div>
+    </div>
+    </form>
+    </div>
+
+    </form>
+    </div>
+
+</body>
+
+</html>
